@@ -1,6 +1,3 @@
-Com certeza! Prepare-se para um README de cair o queixo para o "Legacy Kick"!
-
----
 
 # ⚽ Legacy Kick: Desvendando a História do Futebol Feminino 🇧🇷
 
