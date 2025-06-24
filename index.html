@@ -1,11 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Legacy Kick</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="./output.css" rel="stylesheet">
+
   <style>
     html, body, #root {
       height: 100%;
@@ -13,10 +14,10 @@
       padding: 0;
       overflow: hidden; /* Prevent scrollbars on body/html */
     }
-    body { 
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; 
-      -webkit-font-smoothing: antialiased; 
-      -moz-osx-font-smoothing: grayscale; 
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
     #root {
         width: 100vw;
@@ -25,22 +26,12 @@
         justify-content: center;
     }
   </style>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@19.1.0",
-    "react-dom/client": "https://esm.sh/react-dom@19.1.0/client",
-    "react-error-boundary": "https://esm.sh/react-error-boundary@4.0.13",
-    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
-    "react/": "https://esm.sh/react@^19.1.0/"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
+
 </head>
 <body class="bg-green-800">
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+
   <script type="module" src="/index.tsx"></script>
 </body>
 </html>
