@@ -1,25 +1,6 @@
 import React from 'react';
-import { RestartIcon, DashboardIcon, HomeIcon } from './icons/Icons';
+import { RestartIcon, DashboardIcon, HomeIcon, StarIcon } from './icons/Icons';
 import type { Screen } from '../types';
-
-// --- Ícone de troféu estilo Atari (pixelado) ---
-const AtariTrophyIcon = ({ className }: { className?: string }) => (
-  <svg
-    viewBox="0 0 32 32"
-    className={className}
-    fill="currentColor"
-    shapeRendering="crispEdges"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    {/* Pixel Trophy - estilo Atari */}
-    <path d="
-      M12 4h8v2h2v4h-2v2h-2v4h-4v-4h-2V10h-2V6h2V4zm-4 4h2v4h-2V8zm16 0h2v4h-2V8z
-      M10 22h12v2H10v-2zm4 2h4v2h-4v-2z
-    " />
-  </svg>
-);
-
-// -------------------------------------------------------------
 
 interface EndScreenProps {
   onRestart: () => void;
@@ -32,8 +13,8 @@ export const EndScreen: React.FC<EndScreenProps> = ({ onRestart, score, onNaviga
   return (
     <div className="flex flex-col items-center justify-center text-center text-white w-full animate-fade-in-8bit">
 
-      {/* TROFÉU ESTILO ATARI */}
-      <AtariTrophyIcon className="w-20 h-20 text-amber-300 mb-4" />
+      {/* Ícone de Estrela estilo 8bit */}
+      <StarIcon className="w-20 h-20 text-amber-300 mb-4" />
 
       <h1 className="text-4xl md:text-5xl mb-2" style={{ textShadow: '4px 4px 0px #000' }}>Vitória!</h1>
 

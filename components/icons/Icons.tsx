@@ -52,9 +52,10 @@ export const SoccerBallIcon: React.FC<IconProps> = (props) => (
   </svg>
 );
 
-
 export const DashboardIcon: React.FC<IconProps> = (props) => (
-  <svg {...iconProps} {...props} stroke="none" fill="currentColor"><path d="M4 4h6v8H4V4zm10 0h6v6h-6V4zm0 10h6v6h-6v-6zM4 16h6v4H4v-4z"></path></svg>
+  <svg {...iconProps} {...props} stroke="none" fill="currentColor">
+    <path d="M4 4h6v8H4V4zm10 0h6v6h-6V4zm0 10h6v6h-6v-6zM4 16h6v4H4v-4z"></path>
+  </svg>
 );
 
 export const InfoIcon: React.FC<IconProps> = (props) => (
@@ -80,30 +81,41 @@ export const HistoryIcon: React.FC<IconProps> = (props) => (
 );
 
 /* -------------------------------------------------------
-   ❗ NOVO TROFÉU ESTILO ATARI (pixel art)
+   ⭐ NOVO TROFÉU (AGORA UMA ESTRELA 8-BIT)
 -------------------------------------------------------- */
-export const TrophyIcon: React.FC<IconProps> = (props) => (
+export const StarIcon: React.FC<IconProps> = (props) => (
   <svg
     {...iconProps}
     {...props}
     stroke="none"
     fill="currentColor"
-    viewBox="0 0 32 32"
+    viewBox="0 0 24 24"
     shapeRendering="crispEdges"
   >
     <path d="
-      M12 4h8v2h2v4h-2v2h-2v4h-4v-4h-2V10h-2V6h2V4zm-4 4h2v4h-2V8zm16 0h2v4h-2V8z
-      M10 22h12v2H10v-2zm4 2h4v2h-4v-2z
+      M10 2h4v2h-4V2z
+      M8 4h2v2H8V4z
+      M14 4h2v2h-2V4z
+      M6 6h2v2H6V6z
+      M16 6h2v2h-2V6z
+      M8 8h8v2H8V8z
+      M10 10h4v2h-4v-2z
+      M12 12h2v2h-2v-2z
     " />
   </svg>
 );
 
+
 export const ChatIcon: React.FC<IconProps> = (props) => (
-  <svg {...iconProps} {...props} stroke="none" fill="currentColor"><path d="M2 2h20v14H8v4H6v-4H2V2z"></path></svg>
+  <svg {...iconProps} {...props} stroke="none" fill="currentColor">
+    <path d="M2 2h20v14H8v4H6v-4H2V2z"></path>
+  </svg>
 );
 
 export const ImageIcon: React.FC<IconProps> = (props) => (
-  <svg {...iconProps} {...props} stroke="none" fill="currentColor"><path d="M2 2h20v20H2V2zm2 2v16h16V4H4zm4 4h2v2H8V8zm10 8l-4-4-4 4H6v-4l4-4 6 6v2h2z"></path></svg>
+  <svg {...iconProps} {...props} stroke="none" fill="currentColor">
+    <path d="M2 2h20v20H2V2zm2 2v16h16V4H4zm4 4h2v2H8V8zm10 8l-4-4-4 4H6v-4l4-4 6 6v2h2z"></path>
+  </svg>
 );
 
 export const RestartIcon: React.FC<IconProps> = (props) => (
@@ -128,13 +140,19 @@ export const SparklesIcon: React.FC<IconProps> = (props) => (
 );
 
 export const DownloadIcon: React.FC<IconProps> = (props) => (
-  <svg {...iconProps} {...props} stroke="none" fill="currentColor"><path d="M4 18h16v2H4v-2zM12 4l-6 6h4v6h4v-6h4l-6-6z"></path></svg>
+  <svg {...iconProps} {...props} stroke="none" fill="currentColor">
+    <path d="M4 18h16v2H4v-2zM12 4l-6 6h4v6h4v-6h4l-6-6z"></path>
+  </svg>
 );
 
 export const SendIcon: React.FC<IconProps> = (props) => (
-  <svg {...iconProps} {...props} stroke="none" fill="currentColor"><path d="M2 3l20 9-20 9 4-9-4-9zM2 12h10"></path></svg>
+  <svg {...iconProps} {...props} stroke="none" fill="currentColor">
+    <path d="M2 3l20 9-20 9 4-9-4-9zM2 12h10"></path>
+  </svg>
 );
 
 export const BackIcon: React.FC<IconProps> = (props) => (
-  <svg {...iconProps} {...props} strokeWidth="2" fill="none"><path d="M10 18l-6-6 6-6M20 12H4"></path></svg>
+  <svg {...iconProps} {...props} strokeWidth="2" fill="none">
+    <path d="M10 18l-6-6 6-6M20 12H4"></path>
+  </svg>
 );
