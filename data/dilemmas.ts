@@ -78,7 +78,7 @@ export const DILEMMAS: Dilemma[] = [
       { id: '6a', text: 'Sim, é uma chance única de representar o Brasil e mostrar o talento do nosso futebol ao mundo.', feedback: 'Sua coragem e de suas colegas resulta em um surpreendente 3º lugar, colocando o Brasil no mapa do futebol feminino.', points: 20 },
       { id: '6b', text: 'Não, as condições são muito precárias e amadoras. É preciso exigir um mínimo de estrutura da confederação.', feedback: 'A exigência por melhores condições é justa, mas perder a oportunidade pode custar caro para a visibilidade do esporte.', points: 5 },
     ],
-    historicalFact: 'A Seleção Brasileira, montada com jogadoras do Radar, um time do Rio de Janeiro, viajou para a China e conquistou a medalha de bronze, um feito heroico que impulsionou a criação da Copa do Mundo Feminina oficial em 1991.',
+    historicalFact: 'A Seleção Brasileira, que tinha como base, jogadoras do Radar, um time do Rio de Janeiro, viajou para a China e conquistou a medalha de bronze, um feito heroico que impulsionou a criação da Copa do Mundo Feminina oficial em 1991.',
   },
   {
     id: 7,
