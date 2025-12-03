@@ -1,6 +1,25 @@
 import React from 'react';
-import { TrophyIcon, RestartIcon, DashboardIcon, HomeIcon } from './icons/Icons';
+import { RestartIcon, DashboardIcon, HomeIcon } from './icons/Icons';
 import type { Screen } from '../types';
+
+// --- Ícone de troféu estilo Atari (pixelado) ---
+const AtariTrophyIcon = ({ className }: { className?: string }) => (
+  <svg
+    viewBox="0 0 32 32"
+    className={className}
+    fill="currentColor"
+    shapeRendering="crispEdges"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    {/* Pixel Trophy - estilo Atari */}
+    <path d="
+      M12 4h8v2h2v4h-2v2h-2v4h-4v-4h-2V10h-2V6h2V4zm-4 4h2v4h-2V8zm16 0h2v4h-2V8z
+      M10 22h12v2H10v-2zm4 2h4v2h-4v-2z
+    " />
+  </svg>
+);
+
+// -------------------------------------------------------------
 
 interface EndScreenProps {
   onRestart: () => void;
@@ -12,17 +31,23 @@ export const EndScreen: React.FC<EndScreenProps> = ({ onRestart, score, onNaviga
 
   return (
     <div className="flex flex-col items-center justify-center text-center text-white w-full animate-fade-in-8bit">
-      <TrophyIcon className="w-20 h-20 text-amber-300 mb-4" />
+
+      {/* TROFÉU ESTILO ATARI */}
+      <AtariTrophyIcon className="w-20 h-20 text-amber-300 mb-4" />
+
       <h1 className="text-4xl md:text-5xl mb-2" style={{ textShadow: '4px 4px 0px #000' }}>Vitória!</h1>
+
       <div className="flex items-baseline justify-center gap-4 mb-4">
         <span className="text-lg text-gray-200 uppercase">Score:</span>
         <span className="text-3xl text-amber-300">{score}</span>
       </div>
+
       <p className="text-sm max-w-3xl mb-8 text-gray-300 leading-relaxed">
         Você percorreu a jornada de luta e resiliência do futebol feminino no Brasil. Seu legado foi registrado no Placar.
       </p>
 
       <div className="flex flex-col items-center gap-4 mt-8 w-full max-w-md">
+
         <button
           onClick={onRestart}
           className="w-full bg-white text-black font-bold py-3 px-8 text-lg hover:bg-gray-300 rounded-none flex items-center justify-center gap-2"
@@ -31,6 +56,7 @@ export const EndScreen: React.FC<EndScreenProps> = ({ onRestart, score, onNaviga
           <RestartIcon className="w-6 h-6" />
           Jogar Novamente
         </button>
+
         <div className="flex items-center gap-4">
           <button
             onClick={() => onNavigate('dashboard')}
@@ -40,6 +66,7 @@ export const EndScreen: React.FC<EndScreenProps> = ({ onRestart, score, onNaviga
             <DashboardIcon className="w-5 h-5" />
             Ver Placar
           </button>
+
           <button
             onClick={() => onNavigate('welcome')}
             className="bg-gray-700 text-white py-2 px-4 hover:bg-gray-600 rounded-none flex items-center gap-2 text-xs"
@@ -49,6 +76,7 @@ export const EndScreen: React.FC<EndScreenProps> = ({ onRestart, score, onNaviga
             Início
           </button>
         </div>
+
       </div>
     </div>
   );
