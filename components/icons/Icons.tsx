@@ -17,7 +17,6 @@ const iconProps: IconProps = {
 
 export const SoccerBallIcon: React.FC<IconProps> = (props) => (
   <svg {...iconProps} {...props} viewBox="0 0 24 24">
-    {/* contorno circular pixelado */}
     <path
       d="M9 2H15V4H9V2Z
          M5 4H9V6H5V4Z
@@ -32,8 +31,6 @@ export const SoccerBallIcon: React.FC<IconProps> = (props) => (
       fill="currentColor"
       stroke="none"
     />
-
-    {/* pentágono central (preto para contraste) */}
     <path
       d="M10 9H14V11H10V9Z
          M9 11H15V13H9V11Z
@@ -41,8 +38,6 @@ export const SoccerBallIcon: React.FC<IconProps> = (props) => (
       fill="#000"
       stroke="none"
     />
-
-    {/* hexágonos laterais (usando currentColor com leve transparência) */}
     <path
       d="M7 8H9V10H7V8Z
          M15 8H17V10H15V8Z
@@ -84,8 +79,23 @@ export const HistoryIcon: React.FC<IconProps> = (props) => (
   </svg>
 );
 
+/* -------------------------------------------------------
+   ❗ NOVO TROFÉU ESTILO ATARI (pixel art)
+-------------------------------------------------------- */
 export const TrophyIcon: React.FC<IconProps> = (props) => (
-  <svg {...iconProps} {...props} stroke="none" fill="currentColor"><path d="M6 2h12v6h-2V4H8v4H6V2zm14 8h-4v4h-2v-4H6v4H4v-4H0v-2h2v-2h2v2h16v2h2v2zM8 14h8v8H8v-8z"></path></svg>
+  <svg
+    {...iconProps}
+    {...props}
+    stroke="none"
+    fill="currentColor"
+    viewBox="0 0 32 32"
+    shapeRendering="crispEdges"
+  >
+    <path d="
+      M12 4h8v2h2v4h-2v2h-2v4h-4v-4h-2V10h-2V6h2V4zm-4 4h2v4h-2V8zm16 0h2v4h-2V8z
+      M10 22h12v2H10v-2zm4 2h4v2h-4v-2z
+    " />
+  </svg>
 );
 
 export const ChatIcon: React.FC<IconProps> = (props) => (
@@ -116,7 +126,6 @@ export const SparklesIcon: React.FC<IconProps> = (props) => (
     <path d="M10 0h4v4h-4V0zm10 4h4v4h-4V4zM0 10h4v4H0v-4zm20 10h4v4h-4v-4zM4 4h4v4H4V4zm-4 16h4v4H0v-4zm16-4h4v4h-4v-4zM8 10h8v4H8v-4z"></path>
   </svg>
 );
-
 
 export const DownloadIcon: React.FC<IconProps> = (props) => (
   <svg {...iconProps} {...props} stroke="none" fill="currentColor"><path d="M4 18h16v2H4v-2zM12 4l-6 6h4v6h4v-6h4l-6-6z"></path></svg>
