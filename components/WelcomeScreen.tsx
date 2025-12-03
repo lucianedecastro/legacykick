@@ -15,7 +15,7 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onStart, onNavigat
       </div>
       <h1 className="text-4xl md:text-6xl mb-4" style={{ textShadow: '4px 4px 0px #000', color: "#d4af37" }}>Legacy Kick</h1>
       <p className="text-sm md:text-base max-w-2xl mb-8 text-gray-300 leading-relaxed" style={{ color: "#f5e9c5" }}>
-        Vivencie os dilemas do futebol feminino brasileiro em um campo de futebol interativo.
+        Vivencie os dilemas e as conquistas do futebol feminino brasileiro em um campo de futebol interativo que revela histórias e desafios reais
       </p>
       <button
         onClick={onStart}
