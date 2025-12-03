@@ -3,23 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Legacy Kick: Dilemas do Futebol Feminino</title>
+
+    <!-- Descrição para Google -->
+    <meta
+      name="description"
+      content="Legacy Kick é uma narrativa interativa em 8-bits que mergulha nos dilemas, tensões e conquistas históricas do futebol feminino brasileiro."
+    />
+
+    <!-- Cor do navegador -->
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Open Graph (WhatsApp, Facebook, LinkedIn, Discord, Telegram) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Legacy Kick — A Jornada 8-bit do Futebol Feminino" />
+    <meta
+      property="og:description"
+      content="Uma aventura em 8-bits que revela episódios históricos, desafios e a potência coletiva das mulheres no futebol brasileiro."
+    />
+    <meta property="og:image" content="/logoLegacy.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+    <!-- Ajuste quando o domínio oficial estiver definido -->
+    <meta property="og:url" content="https://legacykick.com.br/" />
+
+    <!-- Twitter Card (mantemos apenas formato básico) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Legacy Kick — A Jornada 8-bit do Futebol Feminino" />
+    <meta
+      name="twitter:description"
+      content="Explore os dilemas e conquistas históricas do futebol feminino por meio de uma experiência em 8-bits."
+    />
+    <meta name="twitter:image" content="/logoLegacy.png" />
+
+    <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
-      /* Importa a fonte pixelada */
       @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-      
+
       body {
         margin: 0;
         font-family: 'Press Start 2P', cursive;
         -webkit-font-smoothing: none;
-        -moz-osx-font-smoothing: grayscale;
         background-color: #0d0d0d;
         color: #fff;
         image-rendering: pixelated;
       }
-      
-      /* Animação de fade-in no estilo 8-bit */
+
       @keyframes fadeIn8Bit {
         from { opacity: 0; }
         to { opacity: 1; }
@@ -28,14 +62,10 @@
         animation: fadeIn8Bit 0.5s steps(3, end) forwards;
       }
 
-      /* Efeito de scanlines para o background */
       .scanlines::before {
         content: "";
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        inset: 0;
         background-image: linear-gradient(
           rgba(0, 0, 0, 0) 50%,
           rgba(0, 0, 0, 0.25) 50%
@@ -45,25 +75,24 @@
         pointer-events: none;
       }
 
-      /* Estilos para bordas pixeladas */
       .pixel-border {
         border: 4px solid;
         border-image-slice: 2;
         border-image-width: 4px;
         border-image-repeat: stretch;
         border-image-source: url('data:image/svg+xml;utf8,<svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0V2H2V0H0Z M2 2V4H4V2H2Z M4 4V6H6V4H4Z" fill="white" shape-rendering="crispEdges"/></svg>');
-        position: relative;
       }
-       .pixel-border-amber {
+
+      .pixel-border-amber {
         border: 4px solid;
         border-image-slice: 2;
         border-image-width: 4px;
         border-image-repeat: stretch;
         border-image-source: url('data:image/svg+xml;utf8,<svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0V2H2V0H0Z M2 2V4H4V2H2Z M4 4V6H6V4H4Z" fill="%23f59e0b" shape-rendering="crispEdges"/></svg>');
-        position: relative;
       }
     </style>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
