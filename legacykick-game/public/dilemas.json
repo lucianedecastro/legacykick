@@ -1,0 +1,172 @@
+[
+  {
+    "id": "dilema1",
+    "situation": "Estamos nos anos 1940, e apesar do entusiasmo de muitas mulheres, a prática do futebol feminino começa a ser vista com desconfiança. As autoridades estão considerando proibir o futebol feminino em espaços públicos. Como você, líder de um time feminino, reage a essa pressão?",
+    "options": [
+      {
+        "text": "Organizar jogos clandestinos em locais privados para manter a prática viva.",
+        "effect": "Mantém o futebol vivo na clandestinidade, mas sem visibilidade."
+      },
+      {
+        "text": "Tentar dialogar com as autoridades, argumentando sobre os benefícios do esporte para as mulheres.",
+        "effect": "Enfrenta a oposição oficial, mas busca legitimação."
+      }
+    ],
+    "feedback": "A proibição do futebol feminino no Brasil durou quase 40 anos, com o Decreto-Lei nº 3.199/41. No entanto, muitas mulheres continuaram a desafiar a lei, organizando jogos e defendendo a prática do esporte, mesmo na clandestinidade. Isso demonstrou a resiliência e a paixão das mulheres pelo futebol.",
+    "historicalFact": "Em 1940, uma carta de José Fuzeira a Getúlio Vargas solicitou a proibição do futebol feminino, alegando que o esporte era 'violento' e 'afetaria o equilíbrio fisiológico' das mulheres, que deveriam ser mães. Esta carta contribuiu para a instauração do Decreto-Lei nº 3.199 em 1941, que oficialmente proibiu a prática de diversas modalidades esportivas por mulheres, incluindo o futebol.",
+    "nextDilemaId": "dilema2"
+  },
+  {
+    "id": "dilema2",
+    "situation": "É a década de 1950, e como jornalista que cobre o futebol feminino, você se depara com artigos e opiniões machistas na imprensa, que desdenham da capacidade das mulheres no esporte. Qual sua abordagem?",
+    "options": [
+      {
+        "text": "Usar seu espaço na imprensa para defender publicamente as atletas e rebater as críticas machistas.",
+        "effect": "Promove o debate e a defesa das jogadoras, enfrentando o preconceito."
+      },
+      {
+        "text": "Focar apenas em histórias positivas de superação, evitando confrontos diretos com a imprensa tradicional.",
+        "effect": "Mantém a imagem positiva, mas pode não desafiar o status quo."
+      }
+    ],
+    "feedback": "No meio da imprensa dominada por homens e suas visões de mundo patriarcais, jornalistas como Ivone dos Santos usaram seu espaço para defender as atletas e contestar as críticas. Sua postura combativa abriu caminhos para a representatividade feminina no jornalismo esportivo e inspirou outras mulheres a lutarem por seus direitos.",
+    "historicalFact": "Durante a década de 1950, Ivone dos Santos foi uma voz incisiva na defesa das atletas e combateu as críticas e ataques proferidos às mulheres que 'desobedeciam a lei'. Ela utilizou seu espaço no jornal para entrevistar profissionais e dar voz a jovens como Evaci, que desejavam jogar futebol apesar da proibição.",
+    "nextDilemaId": "dilema3"
+  },
+  {
+    "id": "dilema3",
+    "situation": "Você é uma pesquisadora apaixonada pela história do futebol feminino brasileiro, mas enfrenta a dificuldade de encontrar registros e informações sobre as pioneiras, especialmente de décadas passadas. Como você contribui para resgatar e preservar essa memória?",
+    "options": [
+      {
+        "text": "Buscar ativamente relatos de ex-jogadoras e coletar materiais (fotos, recortes de jornais) diretamente com elas e suas famílias.",
+        "effect": "Encontra fontes primárias, mas é um trabalho demorado e localizado."
+      },
+      {
+        "text": "Pressionar instituições esportivas e culturais (museus, confederações) para que invistam na digitalização e organização de seus acervos sobre futebol feminino.",
+        "effect": "Promove a organização e acessibilidade em larga escala, mas pode ser um processo lento."
+      }
+    ],
+    "feedback": "A história do futebol feminino no Brasil é marcada pela falta de registros oficiais e o apagamento. A persistência de pesquisadoras e jornalistas foi fundamental para resgatar a trajetória de clubes, jogadoras e competições que, de outra forma, teriam se perdido, mostrando a importância da memória para a legitimação da modalidade.",
+    "historicalFact": "'Não registrar a história das mulheres no futebol é uma forma de tentar apagá-la'. Muitas jornalistas e pesquisadoras são a 'enciclopédia viva' para encontrar histórias de clubes e atletas, cujos registros se perderam ou estavam restritos, de modo a encaixar mais uma peça no imenso quebra-cabeça da história do futebol feminino brasileiro.",
+    "nextDilemaId": "dilema4"
+  },
+  {
+    "id": "dilema4",
+    "situation": "O ano é 1979, e a proibição oficial do futebol feminino no Brasil finalmente caiu, mas a modalidade ainda não foi regulamentada pelo Conselho Nacional de Desportos (CND), o que gera boicotes e dificuldades para a organização de jogos. Como sua equipe deve proceder para garantir o futuro do futebol de mulheres no país?",
+    "options": [
+      {
+        "text": "Lutar pela regulamentação e reconhecimento oficial da modalidade, mesmo que isso envolva confrontos com as instituições.",
+        "effect": "Pressiona por mudanças estruturais e oficialização do esporte."
+      },
+      {
+        "text": "Continuar a jogar de forma amadora e informal, esperando que as instituições se adaptem com o tempo.",
+        "effect": "Mantém a prática, mas sem as garantias e o apoio oficial."
+      }
+    ],
+    "feedback": "A luta pela regulamentação do futebol feminino foi marcada por figuras como Rose do Rio, que não hesitou em enfrentar as autoridades para garantir o direito das mulheres de jogar. O incidente no Morumbi, onde Sócrates e a Democracia Corinthiana apoiaram as jogadoras, foi um momento crucial que forçou o CND a regulamentar a modalidade em 1983, ainda que com regras controversas.",
+    "historicalFact": "Em setembro de 1982, durante o Festival Nacional e Mulheres nas Artes, um jogo de futebol feminino no Estádio do Morumbi foi quase proibido pela Federação Paulista. No entanto, o apoio de jogadores como Sócrates e a determinação das mulheres, lideradas por Rose do Rio, garantiram a realização da partida. Em 1983, o CND finalmente regulamentou o futebol de mulheres no Brasil através da Deliberação 01/83, estabelecendo regras para o jogo, como tempo de partida e peso da bola.",
+    "nextDilemaId": "dilema5"
+  },
+  {
+    "id": "dilema5",
+    "situation": "É 2011, e o time feminino do Santos, multicampeão e com grandes nomes, é desmantelado sob a alegação de falta de verba, apesar de ter patrocinadores. Como você reage a essa decisão, que parece um retrocesso para o futebol feminino no Brasil?",
+    "options": [
+      {
+        "text": "Mobilizar a opinião pública e buscar novos apoios para a manutenção e valorização da equipe feminina.",
+        "effect": "Transforma o problema em uma oportunidade para conscientizar e lutar por mais apoio."
+      },
+      {
+        "text": "Aceitar a decisão do clube, entendendo que são questões financeiras internas.",
+        "effect": "Implica em resignação e a perda de um time feminino de referência."
+      }
+    ],
+    "feedback": "O fim do time feminino do Santos em 2011, apesar de ser um dos mais vitoriosos e com grandes jogadoras, gerou uma forte reação e expôs a falta de interesse de muitos dirigentes pelo futebol feminino. Foram muitas as críticas, de diversas figuras públicas e destacaram a necessidade de uma mudança de mentalidade e um compromisso real com a modalidade.",
+    "historicalFact": "Em 2011, o presidente do Santos FC, Luís Álvaro de Oliveira Ribeiro (Laor), anunciou o fim do time feminino do clube por 'falta de verba', apesar da equipe ter cinco patrocinadores. Essa decisão foi amplamente criticada e vista como um retrocesso para a modalidade, evidenciando o desinteresse de muitos dirigentes em investir no futebol feminino, mesmo com o sucesso e o talento das atletas.",
+    "nextDilemaId": "dilema6"
+  },
+  {
+    "id": "dilema6",
+    "situation": "No início do século XVIII, em regiões como a Escócia, mulheres praticavam jogos de futebol em eventos que, muitas vezes, eram vistos como 'espetáculos' para o público masculino. Como você, uma jogadora da época, lidaria com essa percepção?",
+    "options": [
+      {
+        "text": "Continuar a jogar e usar esses eventos para mostrar a habilidade e paixão das mulheres pelo futebol.",
+        "effect": "Aumenta a visibilidade, mas pode reforçar a visão de 'espetáculo'."
+      },
+      {
+        "text": "Buscar formas de organizar jogos mais sérios e competitivos, focando no aspecto esportivo e não no entretenimento masculino.",
+        "effect": "Busca legitimar a prática como esporte, desafiando a percepção social."
+      }
+    ],
+    "feedback": "No século XVIII, documentos da Igreja na Escócia já registravam mulheres jogando futebol. Esses jogos, muitas vezes, eram festivos, com a presença de homens que viam as jogadoras como 'futuras noivas'. A luta pela legitimação do futebol feminino como um esporte sério, e não apenas um divertimento, seria uma batalha longa, marcada pela busca por regras e organização.",
+    "historicalFact": "Em 1628, documentos da Igreja em Carstairs, Lanarkshire (Escócia), já registravam mulheres que jogavam futebol. No início do século XVIII, em Inverness e Midlothian, mulheres se reuniam anualmente para partidas que se aproximavam de jogos folclóricos, onde a bola era feita de bexiga de animal e as árvores serviam como balizas. Estes eventos, apesar de rudimentares, mostravam a presença feminina na prática esportiva muito antes das regras da FA (1863).",
+    "nextDilemaId": "dilema7"
+  },
+  {
+    "id": "dilema7",
+    "situation": "Em 1921, a Football Association (FA) no Reino Unido, após um período de grande popularidade do futebol feminino, decide banir a prática por mulheres, alegando que o esporte era 'inadequado'. Como você, uma jogadora da época, reagiria a essa proibição oficial?",
+    "options": [
+      {
+        "text": "Organizar e participar de jogos clandestinos, mantendo o futebol vivo apesar da proibição.",
+        "effect": "Mantém a prática viva, mas sob a clandestinidade e risco."
+      },
+      {
+        "text": "Engajar-se em movimentos de protesto e ativismo, buscando reverter a decisão da FA e lutar pelos direitos das mulheres no esporte.",
+        "effect": "Pressiona por mudanças legais e reconhecimento, enfrentando diretamente a instituição."
+      }
+    ],
+    "feedback": "O banimento do futebol feminino pela FA em 1921 foi um golpe duro para a modalidade, que vivia um auge de popularidade. No entanto, a proibição não impediu que muitas mulheres continuassem a jogar, seja de forma informal, seja em circos itinerantes, como no Brasil, onde o futebol feminino ganhava espaço apesar das restrições e do preconceito.",
+    "historicalFact": "Em 1921, o futebol feminino foi banido no Reino Unido pela Football Association (FA). No Brasil, no mesmo ano, o jornal A Gazeta de São Paulo noticiou um jogo de futebol entre mulheres dos bairros da Cantareira e do Tremembé, mostrando que, apesar das restrições em outros locais, a prática continuava a surgir e a se organizar, muitas vezes em eventos festivos ou populares como os circos itinerantes, que introduziram o futebol feminino em suas apresentações.",
+    "nextDilemaId": "dilema8"
+  },
+  {
+    "id": "dilema8",
+    "situation": "Nos anos 1970, em São Paulo, um campeonato de futebol feminino é organizado entre dançarinas de boates da 'Boca do Luxo', ganhando destaque na imprensa. Apesar da visibilidade, há o risco de a modalidade ser associada a um 'espetáculo' ou ser subestimada. Como você, uma das jogadoras ou organizadoras, aproveitaria essa oportunidade?",
+    "options": [
+      {
+        "text": "Focar em partidas de alta qualidade técnica e tática para legitimar o futebol feminino como um esporte sério, indo além do aspecto de entretenimento.",
+        "effect": "Promove o reconhecimento esportivo, desafiando estereótipos."
+      },
+      {
+        "text": "Utilizar a visibilidade midiática para atrair mais apoio e investimentos para o futebol feminino, mesmo que isso signifique reforçar temporariamente o lado 'curioso' do evento.",
+        "effect": "Aproveita a atenção para expandir a modalidade, com o risco de reforçar estereótipos."
+      }
+    ],
+    "feedback": "O campeonato da 'Boca do Luxo' nos anos 1970 é um exemplo notável de como o futebol feminino persistia e ganhava visibilidade, mesmo que de formas inusitadas, durante a proibição. Essas iniciativas, por mais que pudessem ser vistas como 'espetáculos', foram cruciais para manter a chama da modalidade acesa e mostrar a paixão das mulheres pelo esporte.",
+    "historicalFact": "O livro 'Futebol Feminista' relata o campeonato de futebol feminino entre dançarinas de boates da 'Boca do Luxo' em São Paulo nos anos 1970, com cobertura do 'Diário da Noite'. Times como 'My Love', 'Le Masque' e 'Korvette' disputavam partidas que ganhavam as páginas dos jornais, evidenciando a organização e o engajamento das mulheres com o futebol mesmo em um período de proibição oficial.",
+    "nextDilemaId": "dilema9"
+  },
+  {
+    "id": "dilema9",
+    "situation": "O ano é 2013, e o Campeonato Brasileiro Feminino (Série A1) é finalmente criado, prometendo uma nova era para o futebol de mulheres no Brasil. No entanto, ainda há incertezas sobre sua sustentabilidade e o engajamento de clubes e público. Como você, uma das idealizadoras ou apoiadoras, garantiria o sucesso e o crescimento dessa nova liga?",
+    "options": [
+      {
+        "text": "Focar na atração de patrocínios e investimentos para profissionalizar os clubes e aumentar a visibilidade do campeonato na mídia.",
+        "effect": "Acelera a profissionalização e o alcance, mas pode depender de fatores externos."
+      },
+      {
+        "text": "Trabalhar na base, incentivando a formação de novas atletas e a criação de mais equipes em diferentes regiões para fortalecer a modalidade de dentro para fora.",
+        "effect": "Garante a sustentabilidade a longo prazo, mas os resultados podem demorar a aparecer."
+      }
+    ],
+    "feedback": "A criação do Campeonato Brasileiro Feminino em 2013 foi um marco significativo, fruto de esforços do Ministério do Esporte e da Caixa Econômica Federal. Garantir seu sucesso dependia de superar desafios como a profissionalização dos clubes, a atração de público e a garantia de estrutura para as atletas, aspectos que ainda hoje são pautas importantes na luta pelo futebol feminino.",
+    "historicalFact": "Em 2013, o Campeonato Brasileiro Feminino (Série A1) foi criado, com a participação de 20 equipes. Esse processo foi coordenado pelo Ministério do Esporte, que também aportou recursos para três edições da Libertadores Feminina, além do apoio financeiro da Caixa Econômica Federal. A ex-jogadora Michael Jackson conduziu um grupo de trabalho para articular o desenvolvimento da modalidade.",
+    "nextDilemaId": "dilema10"
+  },
+  {
+    "id": "dilema10",
+    "situation": "O ano é 2020 e a CBF anuncia a equiparação das premiações entre as seleções feminina e masculina, e a nomeação de ex-atletas mulheres para cargos de liderança na entidade. Como você, uma ativista do futebol feminino, vê essas conquistas e os próximos passos?",
+    "options": [
+      {
+        "text": "Celebrar as vitórias alcançadas, reconhecendo-as como frutos de décadas de luta, e continuar a pressionar por mais avanços em todas as esferas.",
+        "effect": "Valoriza o progresso e mantém o ímpeto para futuras conquistas."
+      },
+      {
+        "text": "Ver com cautela as mudanças, ciente de que a luta é contínua e que o machismo ainda se manifesta de outras formas, focando nas desigualdades que persistem.",
+        "effect": "Mantém o foco nos desafios remanescentes, garantindo que a luta não cesse."
+      }
+    ],
+    "feedback": "As decisões da CBF em 2020, como a equiparação de premiações e a nomeação de Aline Pellegrino e Duda Luizelli, foram marcos importantes, fruto de décadas de 'luta, desobediência e insurgência'. No entanto, como destacam ativistas e especialistas, a batalha pela igualdade ainda não terminou, e é preciso continuar a lutar para zerar os índices negativos e garantir a plena representatividade feminina no esporte.",
+    "historicalFact": "Em 2020, a CBF implementou decisões significativas, como a equiparação das premiações entre as seleções feminina e masculina, e a nomeação de Aline Pellegrino como diretora de competições femininas e Duda Luizelli como coordenadora de Seleções Femininas. Estas conquistas foram resultado de um longo processo de luta, que incluiu o Grupo de Trabalho do Comitê de Reformas formado em 2016 e a persistência de atletas e ativistas ao longo das décadas.",
+    "nextDilemaId": null
+  }
+]
